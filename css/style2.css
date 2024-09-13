@@ -1,0 +1,129 @@
+@font-face {
+    font-family: poppins;
+    src: url("fonts/Poppins-Light.ttf");
+}
+@font-face {
+    font-family: poppins-bold;
+    src: url("fonts/Poppins-Bold.ttf");
+}
+@font-face {
+    font-family: popppins-italic;
+    src: url("fonts/Poppins-Italic.ttf");
+}
+body{
+    display: flex;
+
+}
+.left{
+    display: flex;
+    align-items: center;
+    width: 15vw;
+    height: 98vh;
+}.middle{
+    width: 70vw;
+    height: 98vh;
+    border-radius: 20px;
+    box-sizing: border-box;
+    box-shadow: rgba(0, 0, 0, 0.88) 0px 5px 15px;
+}.ourTeam{
+    font-family: poppins-bold;
+    font-size: 52px;
+    font-weight: 900;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+}
+.row{
+    display: flex;
+    justify-content:space-around;
+    width: 100%;
+    height: 30%;
+}
+.image{
+    height: 100%;
+    width: 48%;
+    display: flex;
+    align-items: center;
+}
+.round{
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background-color: coral;
+}
+.content{
+    height: 100%;
+    width: 50%;
+}
+.box{
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.88) 0px 5px 10px;
+    height: 95%;
+    width: 45%;
+    display: flex;
+    justify-content: center;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+    width: 15vw;
+    height: 98vh;
+}
+.square{
+    width: 100%;
+    height: 15%;
+    background-color: #198754;
+}
+.name{
+    font-family: poppins;
+    font-weight:800;
+    display: flex;
+    align-items: center;
+    font-size: 32px;
+    width: 100%;
+    height: 20%;
+}
+.position{
+    color: tomato;
+    font-family: poppins;
+    font-weight:800;
+    display: flex;
+    align-items: center;
+    font-size: 28px;
+    width: 100%;
+    height: 18%;
+}
+.description{
+    color: rgb(148, 148, 148);
+    font-family: popppins-italic;
+    font-size: 14px;
+    word-wrap: break-word;
+    overflow-y: auto;
+    width: 100%;
+    height: 40%;
+}
+.social{
+    margin-top: 2%;
+    display: flex;
+    width: 100%;
+    height: 20%;
+}
+.socialIcon{
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: 32px 32px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 25%;
+    margin-right: 2%;
+}
+.socialIcon:hover{
+    background-size:38px 38px;
+    transition: 0.1s ease-in;
+}
+

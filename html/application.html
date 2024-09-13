@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/employer.css">
+    <title>APPLICATION FORM</title>
+</head>
+
+
+<body>
+    
+	<div class="nav-logo">
+		<div class="logo">
+			<img src="../images/J (4).png" alt="Logo">
+		</div>
+		<div class="navbar">
+			<ul>
+				<li><a href = "home.html">HOME</a></li>
+				<li><a href = "jobcategories.html">JOBS</a></li>
+				<li><a href = "login.html">LOGIN</a></li>
+				<li><a href = "contact.html">CONTACT US</a></li>
+				<li><a href = "help.html">HELP & SUPPORT</a></li>
+				<li><a href = "about.html">ABOUT US</a></li>
+			</ul>
+		</div>
+		<div class="search-bar">
+			<form action="/action_page.php">
+				<input type="text" placeholder="Search.." name="search">
+			</form>
+		</div>
+		<div class="user">
+			<a href="profile.html"><img src="../images/user.jpg" alt="Avatar" ></a>
+		</div>
+	</div>
+
+
+	<div class ="back">
+		<div class="btn-style">
+			<button class="button" type="button"><a href="../html/jobcategories.html">For Jobseekers</a></button>
+			<button class="button" type="button"><a href="../html/employer.html">For Employers</a></button>       
+		</div>
+		<div class="title">
+			<h1>APPLICATION FORM</h1>
+		</div>
+		<br><br>
+		
+		<center>
+			<div class="form-style">
+				<form action="app.php" method="post">
+				<br><br>
+				<label>First Name</label>
+				<input type="text"name="f_name" class="form-control" id="f_name" placeholder="Your first name" required><br><br>
+    
+        <label>Last Name</label>
+        <input type="text"name="l_name" class="form-control" id="l_name" placeholder="Your last name" required><br><br>
+    
+        <label>Contact Number</label> 
+        <input type="phone"name="j_mobile" class="form-control" id="j_mobile" placeholder="0777123456" pattern="[0-9]{10}" required><br><br>
+    
+        <label>E-mail</label> 
+        <input type="email"name="E_email" class="form-control" id="E_email" placeholder="jobmart@gmail.com" 
+        pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}"required> <br/><br/>
+    
+        <lable>Address</lable><br><br>
+        <textarea name="E_address" class="form-control" id="E_address" placeholder="Enter your Address in here...." required></textarea><br><br>
+    
+        <lable>Upload your CV in here</lable><br>
+        <input type="file" id="cvFile" name="cv"><br/><br/>
+
+        <lable>Upload your Applcation letter in here</lable><br>
+        <input type="file" id="letterFile" name="letter"><br/><br/>
+
+
+        
+        
+    <input type="submit"value="Submit">
+    <br><br>
+</form><br><br><br><br>
+</div>
+
+<div class="footer">
+    <span>Developed By <a href="">Job Mart</a> | <span class="fa fa-copyright"></span> 2023 All rights reserved.</span>
+</div>
+
+   
+</body>
+</html>

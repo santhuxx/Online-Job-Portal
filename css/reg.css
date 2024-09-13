@@ -1,0 +1,133 @@
+form{
+	width:40%;
+  height: min-content;
+	margin:8px 10px;
+	display:inline-block;
+	border:1px solid #01381e;
+	border-radius:10px;
+	padding:12px 20px;
+	background: #1ade82; 
+	font-size:12px;
+	font-family:verdana;
+  font-weight: bold;
+	color:black;
+	box-sizing:content-box;
+	text-align:left;
+  align-content: center;
+	
+}
+
+form button, .backBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    max-width: inherit;
+    width: 100%;
+    border: none;
+    outline: none;
+    color: #000000;
+    border-radius: 5px;
+    margin: 25px 0;
+    background-color: #046519;
+    transition: all 0.3s linear;
+    cursor: pointer;
+}
+
+.btnText{
+  font-size: 20px;
+  color:white
+}
+
+body {
+  background-image: url(../Images/white-abstract-background-design_23-2148825582.avif);
+  overflow-x: hidden;
+  height: 90vh;
+  
+}
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=password], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=email], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=phone], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+textarea {
+  width: 100%;
+  height: 50px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+}
+
+.btn-group{
+
+  display : inline-flex;
+    border: 1px solid #04ec80;
+    border-radius: 7px;
+    overflow: hidden;
+    margin-left: 80%;
+    margin-top: 5px;
+  
+
+}
+.button{
+  
+  padding: 15px 20px;
+     outline: none;
+     border: none;
+     cursor: pointer;
+     border-right: 1px solid #ffffff;
+     background: #198754;
+     font-family:'heebo';;
+   
+}
+.button:last-child{
+   border-right: none;
+}
+
+.button:hover{
+   background-color:#7fddb1;
+}
+
+.button a{
+  color: white;
+  text-decoration: none;
+}
+

@@ -1,0 +1,224 @@
+.button1 {
+    background-color: rgb(255, 255, 255);
+    margin-left: 0.5px;
+
+}
+
+.button2 {
+    background-color: rgb(255, 255, 255);
+    margin-right: 10px;
+
+}
+
+.button2:active {
+    background-color: #cccbcbfa;
+    margin-right: 10px;
+
+}
+
+.button1:active {
+    background-color: #cccbcbfa;
+    margin-left: 0.5px;
+
+}
+
+.tb {
+    padding-top: 3%;
+    padding-left: 20px;
+}
+
+.thead {
+    background-color: rgb(164, 75, 247);
+}
+
+.tbody {
+    background: linear-gradient(to bottom, #fcf2fe 0%, #d7cee1 100%);
+}
+
+.table,
+td,
+th {
+
+    border: 2px solid;
+    border-collapse: collapse;
+}
+
+th {
+    height: 50px;
+    width: 100px;
+}
+
+td {
+    height: 40px;
+    width: 100px;
+    text-align: center;
+    align-items: center;
+}
+
+.hedder {
+    background-color: rgb(190, 126, 250);
+    width: 100%;
+    height: 150px;
+    margin-bottom: 20px;
+    padding-top: 5px;
+
+}
+
+.buttongroup {
+
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+p {
+    padding-top: 0.1px;
+    padding-left: 10px;
+}
+
+button {
+
+    width: 150px;
+    height: 30px;
+
+}
+
+h4 {
+
+    width: 150px;
+    height: 30px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.footer {
+    background: #111;
+    padding: 15px 23px;
+    color: #fff;
+    text-align: center;
+
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+}
+
+.footer span a {
+    color: #198754;
+    text-decoration: none;
+}
+
+.footer span a:hover {
+    text-decoration: underline;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-logo {
+    display: flex;
+    background-color: #188754;
+    padding-left: 14px;
+    height: 50px;
+}
+
+.nav-logo .logo img {
+    padding-top: 8px;
+    height: 41px;
+}
+
+.nav-logo .navbar {
+    list-style-type: none;
+    padding-left: 30px;
+}
+
+.nav-logo .navbar ul li {
+    display: inline;
+    float: left;
+    padding-left: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+}
+
+.nav-logo .navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 3px 8px;
+}
+
+.nav-logo .navbar li a:hover {
+    transform: scale(1.12);
+}
+
+.nav-logo .search-bar {
+    float: right;
+    margin-left: 120px;
+    padding-top: 8px;
+}
+
+.nav-logo .search-bar input[type=text] {
+    padding: 6px;
+    font-size: 17px;
+    border: none;
+}
+
+.nav-logo .search-bar button {
+    float: right;
+    padding: 6px 10px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+.nav-logo .user img {
+    padding: 10px;
+    border-radius: 50%;
+    width: 30px;
+    margin-left: 30px;
+}
+
+.nav-logo .search-bar input[type=text] {
+    padding: 5px;
+    font-size: 17px;
+    border: none;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+}
+
+.nav-logo .search-bar button {
+    float: right;
+    padding: 6px 10px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.delete-btn {
+    background-color: #817e7e;
+    border-radius: 5px;
+    font-size: 15px;
+    width: 80px;
+    height: 20px;
+    margin-top: 5px;
+}
+
+.delete-btn:hover {
+    background: linear-gradient(45deg, #3b3737, #fdfffd);
+    background-size: 200% 200%;
+    animation: gradientAnimation 4s ease infinite;
+}
+
+#nic {
+    border-radius: 5px;
+    height: 27px;
+}
+
